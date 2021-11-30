@@ -1,3 +1,45 @@
+/* SLIDE IMAGE */
+
+
+@media screen  and(max-width: 1000px){
+  .wrapper {
+    width: 100%;
+  }
+
+  .slide-wrapper {
+    width: 75%;
+  }
+
+  label span { font-size: 75pt; }
+
+  .me{ display: none;}
+}
+
+@media screen and (max-width: 670px){
+  .wrapper {
+    width: 100%;
+    background-image: none;
+  }
+
+  .slide-wrapper{
+    border: none;
+    width: 50%;
+    height: 0;
+    padding-bottom: 30%; 
+  }	
+  
+  label span { font-size: 50pt; }
+  
+  .prev, .next{
+    width: 15%;
+  }	
+
+  #nav_slide .dots{
+    width: 12px;
+    height: 12px;
+  }
+}
+
 /* LIST BEASISWA */
 
 @media all and (max-width: 1000px) {
