@@ -118,3 +118,90 @@ a {
   text-align: center;
   padding-bottom: 30px;
 }
+
+
+/* FORM CHECK */
+
+.form-check {
+  padding: 0px 55px;
+}
+
+.form-check .container {
+  padding: 200px 0px;
+
+}
+
+.bagiankiri {
+  width: 480px;
+  margin: 0 auto;
+  font-size: 14px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+
+.ket {
+  text-align: center;
+  font-size: 11px;
+}
+
+.form-judul { 
+  width: 100%;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.form-isian {
+  padding: 1px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.ngisi {
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.judul{
+  text-align: center;
+  margin: 0px 120px;
+  border-bottom: 2px solid #f7d08a;
+  padding: 15px 5px;
+}
+
+input, textarea {
+  border: none;
+  border-bottom: 1px solid rgb(70, 53, 53, 0.15);
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+input  {
+  display: block;
+  width: 90%;
+}
+
+input:hover, textarea:hover {
+  box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.4);;
+}
+
+textarea {
+  display: block;
+  width: 90%;
+}
+
+.ngirim {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  font-size: 15px;
+  border: 1px solid #f7d08a;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+.ngirim:hover {
+  background-color: #f7d08a;
+  color: #fff;
+}
