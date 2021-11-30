@@ -1,8 +1,80 @@
-body {
-  margin: 0;
-  font-family: "Lucida Grande";
+h2 {
+  font-size: 45px;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
+}
+
+.container {
+  background-color: #f7d08a;
+  /*background-image: url(BG1-02-02.png);
+  background-size: contain;*/
+}
+
+.konten {
+  float: left;
+  width: 25%;
+  /*background-color: #f7d08a;*/
+  height: 400px;
+  margin-top: opx;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.foto-testimoni {
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+
+.pesan p {
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.pesan h3 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.pesan h4 {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 0pt;
+  font-weight: normal;
+}
+
+.tombol {
+  padding: 12px 24px;
+  background-color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  color: #9d5c0d;
+}
+
+.tombol:hover {
+  opacity: 1;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0 7px #e5890a;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.testimoni-lain {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 30px;
 }
