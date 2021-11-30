@@ -64,3 +64,29 @@
     font-size: 10px;
   }
 }
+
+
+/* FORM CHECK */
+
+@media (max-width: 1000px) {
+  .bagiankiri {
+      width: 50%;
+  }
+
+  input, textarea {
+      width: 80%;
+  }
+
+  .judul {
+      width: 50%;
+      margin: auto;
+      font-size: 14px;
+      line-height: 25px;
+      font-size: 15px;
+  }
+
+  .ket {
+      font-size: 10px;
+      margin: 20px;
+  }
+}
