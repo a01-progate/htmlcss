@@ -1,0 +1,40 @@
+/* Untuk Tablets */
+@media (max-width: 1000px) {
+  .konten {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  .pesan h3 {
+    font-size: 20px;
+  }
+
+  .pesan h4 {
+    font-size: 18px;
+  }
+
+  .pesan p {
+    font-size: 14px;
+  }
+}
+/* Untuk Smartphone*/
+@media (max-width: 670px) {
+  .konten {
+    width: 100%;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  .pesan h3 {
+    font-size: 16px;
+  }
+  .pesan h4 {
+    font-size: 12px;
+  }
+
+  .pesan p {
+    font-size: 10px;
+  }
+}
