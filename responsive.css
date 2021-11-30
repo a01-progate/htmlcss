@@ -1,3 +1,29 @@
+/* LIST BEASISWA */
+
+@media all and (max-width: 1000px) {
+  .container heading {
+      font-size: 18px;
+  }
+
+  .jenis-beasiswa {
+      width: 50%;
+      padding-bottom: 50px
+  }
+}
+
+@media all and (max-width: 670px) {
+  .container heading {
+      font-size: 12px;
+  }
+
+  .jenis-beasiswa {
+      width: 100%;
+      padding-bottom: 25px
+  }
+}
+
+/* TESTIMONI */
+
 /* Untuk Tablets */
 @media (max-width: 1000px) {
   .konten {
