@@ -1,7 +1,6 @@
 /* SLIDE IMAGE */
 
-
-@media screen  and(max-width: 1000px){
+@media screen and(max-width: 1000px) {
   .wrapper {
     width: 100%;
   }
@@ -10,31 +9,38 @@
     width: 75%;
   }
 
-  label span { font-size: 75pt; }
+  label span {
+    font-size: 75pt;
+  }
 
-  .me{ display: none;}
+  .me {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 670px){
+@media screen and (max-width: 670px) {
   .wrapper {
     width: 100%;
     background-image: none;
   }
 
-  .slide-wrapper{
+  .slide-wrapper {
     border: none;
     width: 50%;
     height: 0;
-    padding-bottom: 30%; 
-  }	
-  
-  label span { font-size: 50pt; }
-  
-  .prev, .next{
-    width: 15%;
-  }	
+    padding-bottom: 30%;
+  }
 
-  #nav_slide .dots{
+  label span {
+    font-size: 50pt;
+  }
+
+  .prev,
+  .next {
+    width: 15%;
+  }
+
+  #nav_slide .dots {
     width: 12px;
     height: 12px;
   }
@@ -44,23 +50,23 @@
 
 @media all and (max-width: 1000px) {
   .container heading {
-      font-size: 18px;
+    font-size: 18px;
   }
 
   .jenis-beasiswa {
-      width: 50%;
-      padding-bottom: 50px
+    width: 50%;
+    padding-bottom: 50px;
   }
 }
 
 @media all and (max-width: 670px) {
   .container heading {
-      font-size: 12px;
+    font-size: 12px;
   }
 
   .jenis-beasiswa {
-      width: 100%;
-      padding-bottom: 25px
+    width: 100%;
+    padding-bottom: 25px;
   }
 }
 
@@ -72,7 +78,7 @@
     width: 50%;
     margin-bottom: 50px;
   }
-  h2 {
+  .judul-testimoni h2 {
     font-size: 32px;
   }
   .pesan h3 {
@@ -92,7 +98,7 @@
   .konten {
     width: 100%;
   }
-  h2 {
+  .judul-testimoni h2 {
     font-size: 28px;
   }
   .pesan h3 {
@@ -105,30 +111,33 @@
   .pesan p {
     font-size: 10px;
   }
+  .konten {
+    height: 250px;
+  }
 }
-
 
 /* FORM CHECK */
 
 @media (max-width: 1000px) {
   .contain-form {
-      width: 50%;
+    width: 50%;
   }
 
-  input, textarea {
-      width: 80%;
+  input,
+  textarea {
+    width: 80%;
   }
 
   .judul {
-      width: 50%;
-      margin: auto;
-      font-size: 14px;
-      line-height: 25px;
-      font-size: 15px;
+    width: 50%;
+    margin: auto;
+    font-size: 14px;
+    line-height: 25px;
+    font-size: 15px;
   }
 
   .ket {
-      font-size: 10px;
-      margin: 20px;
+    font-size: 10px;
+    margin: 20px;
   }
 }
