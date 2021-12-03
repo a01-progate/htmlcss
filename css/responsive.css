@@ -1,6 +1,14 @@
 /* SLIDE IMAGE */
 
 @media screen and(max-width: 1000px) {
+  .images-slide h1 {
+    font-size: 32px;
+  }
+
+  .images-slide p {
+    font-size: 10px;
+  }
+
   .wrapper {
     width: 100%;
   }
@@ -19,6 +27,14 @@
 }
 
 @media screen and (max-width: 670px) {
+  .images-slide h1 {
+    font-size: 30px;
+  }
+
+  .images-slide p {
+    font-size: 14px;
+  }
+
   .wrapper {
     width: 100%;
     background-image: none;
@@ -47,7 +63,7 @@
 }
 
 /* LIST BEASISWA */
-
+/* Tablet*/
 @media all and (max-width: 1000px) {
   .container heading {
     font-size: 18px;
@@ -57,8 +73,18 @@
     width: 50%;
     padding-bottom: 50px;
   }
-}
 
+  .list-beasiswa {
+    height: 1250px;
+  }
+
+  .teks {
+    font-size: 14px;
+    margin-left: 80px;
+    width: 225px;
+  }
+}
+/* Smartphone*/
 @media all and (max-width: 670px) {
   .container heading {
     font-size: 12px;
@@ -67,6 +93,15 @@
   .jenis-beasiswa {
     width: 100%;
     padding-bottom: 25px;
+  }
+
+  .list-beasiswa {
+    height: 2350px;
+  }
+  .teks {
+    font-size: 12px;
+    margin-left: 60px;
+    width: 200px;
   }
 }
 
@@ -92,6 +127,10 @@
   .pesan p {
     font-size: 14px;
   }
+
+  .list-testimoni {
+    height: 1150px;
+  }
 }
 /* Untuk Smartphone*/
 @media (max-width: 670px) {
@@ -113,6 +152,10 @@
   }
   .konten {
     height: 250px;
+  }
+
+  .list-testimoni {
+    height: 1500px;
   }
 }
 
